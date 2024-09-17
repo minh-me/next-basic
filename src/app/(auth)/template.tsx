@@ -13,17 +13,10 @@ export default function AuthLayout({
 }>) {
   return (
     <main>
-      Auth Layout <br />
+      Template
       <Input type="text" className="max-w-xs" />
       <br />
       {children}
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <hr />
-      <footer>Footer</footer>
     </main>
   );
 }
